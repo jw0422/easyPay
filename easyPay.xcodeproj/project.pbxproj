@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8AE5910F1F9EF995009EF337 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AE5910E1F9EF994009EF337 /* GoogleService-Info.plist */; };
+		8AEE188A1F9FD79F0082678A /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEE18891F9FD79F0082678A /* SignupViewController.swift */; };
 		DE1C3E2B1F9ED190001AE0A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C3E2A1F9ED190001AE0A5 /* AppDelegate.swift */; };
 		DE1C3E2D1F9ED190001AE0A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C3E2C1F9ED190001AE0A5 /* ViewController.swift */; };
 		DE1C3E301F9ED190001AE0A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1C3E2E1F9ED190001AE0A5 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		5E220618DA2D8754651C3196 /* Pods-easyPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easyPay.release.xcconfig"; path = "Pods/Target Support Files/Pods-easyPay/Pods-easyPay.release.xcconfig"; sourceTree = "<group>"; };
 		742D9041E43816ECDF1607FB /* Pods_easyPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_easyPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AE5910E1F9EF994009EF337 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8AEE18891F9FD79F0082678A /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		CF422BD557A2C9D825755C56 /* Pods-easyPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easyPay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-easyPay/Pods-easyPay.debug.xcconfig"; sourceTree = "<group>"; };
 		DE1C3E271F9ED190001AE0A5 /* easyPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = easyPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1C3E2A1F9ED190001AE0A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				DE1C3E391F9ED190001AE0A5 /* Info.plist */,
 				DE1C3E311F9ED190001AE0A5 /* easyPay.xcdatamodeld */,
 				8AE5910E1F9EF994009EF337 /* GoogleService-Info.plist */,
+				8AEE18891F9FD79F0082678A /* SignupViewController.swift */,
 			);
 			path = easyPay;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			files = (
 				DE1C3E2D1F9ED190001AE0A5 /* ViewController.swift in Sources */,
 				DE1C3E2B1F9ED190001AE0A5 /* AppDelegate.swift in Sources */,
+				8AEE188A1F9FD79F0082678A /* SignupViewController.swift in Sources */,
 				DE1C3E331F9ED190001AE0A5 /* easyPay.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

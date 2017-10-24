@@ -54,6 +54,9 @@
                                 <rect key="frame" x="247" y="443" width="81" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sign Up"/>
+                                <connections>
+                                    <segue destination="9K7-8b-h07" kind="presentation" id="fae-W7-a4p"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="EasyPay" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UJD-R7-VQ9">
                                 <rect key="frame" x="51" y="88" width="279" height="104"/>
@@ -71,10 +74,10 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--Signup View Controller-->
         <scene sceneID="Wh5-m0-Yfb">
             <objects>
-                <viewController id="9K7-8b-h07" sceneMemberID="viewController">
+                <viewController id="9K7-8b-h07" customClass="SignupViewController" customModule="easyPay" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Btt-VW-gU7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -97,6 +100,9 @@
                                 <rect key="frame" x="249" y="318" width="78" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sign Up"/>
+                                <connections>
+                                    <action selector="createAccountAction:" destination="9K7-8b-h07" eventType="touchUpInside" id="ahH-XU-SNZ"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BC2-En-QFL">
                                 <rect key="frame" x="47" y="143" width="280" height="30"/>
@@ -109,11 +115,18 @@
                                 <rect key="frame" x="47" y="318" width="80" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Cancel"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="TvD-QW-WNn"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="RcB-li-6g9"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTF" destination="Qp3-y3-HD8" id="IrX-4B-olp"/>
+                        <outlet property="passwordTF" destination="mmX-7K-3dd" id="uJs-bb-A0s"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oVd-6N-cjE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
