@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8AE5910F1F9EF995009EF337 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AE5910E1F9EF994009EF337 /* GoogleService-Info.plist */; };
 		DE1C3E2B1F9ED190001AE0A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C3E2A1F9ED190001AE0A5 /* AppDelegate.swift */; };
 		DE1C3E2D1F9ED190001AE0A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C3E2C1F9ED190001AE0A5 /* ViewController.swift */; };
 		DE1C3E301F9ED190001AE0A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1C3E2E1F9ED190001AE0A5 /* Main.storyboard */; };
 		DE1C3E331F9ED190001AE0A5 /* easyPay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE1C3E311F9ED190001AE0A5 /* easyPay.xcdatamodeld */; };
 		DE1C3E351F9ED190001AE0A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1C3E341F9ED190001AE0A5 /* Assets.xcassets */; };
 		DE1C3E381F9ED190001AE0A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1C3E361F9ED190001AE0A5 /* LaunchScreen.storyboard */; };
+		DF812CB24D1EFDF2A48BD41F /* Pods_easyPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742D9041E43816ECDF1607FB /* Pods_easyPay.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E220618DA2D8754651C3196 /* Pods-easyPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easyPay.release.xcconfig"; path = "Pods/Target Support Files/Pods-easyPay/Pods-easyPay.release.xcconfig"; sourceTree = "<group>"; };
+		742D9041E43816ECDF1607FB /* Pods_easyPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_easyPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE5910E1F9EF994009EF337 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CF422BD557A2C9D825755C56 /* Pods-easyPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easyPay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-easyPay/Pods-easyPay.debug.xcconfig"; sourceTree = "<group>"; };
 		DE1C3E271F9ED190001AE0A5 /* easyPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = easyPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1C3E2A1F9ED190001AE0A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE1C3E2C1F9ED190001AE0A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF812CB24D1EFDF2A48BD41F /* Pods_easyPay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0284279153DFBFF88C79678C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				742D9041E43816ECDF1607FB /* Pods_easyPay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24C91041BFF7D31DE23B75E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF422BD557A2C9D825755C56 /* Pods-easyPay.debug.xcconfig */,
+				5E220618DA2D8754651C3196 /* Pods-easyPay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DE1C3E1E1F9ED190001AE0A5 = {
 			isa = PBXGroup;
 			children = (
 				DE1C3E291F9ED190001AE0A5 /* easyPay */,
 				DE1C3E281F9ED190001AE0A5 /* Products */,
+				24C91041BFF7D31DE23B75E3 /* Pods */,
+				0284279153DFBFF88C79678C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +89,7 @@
 				DE1C3E361F9ED190001AE0A5 /* LaunchScreen.storyboard */,
 				DE1C3E391F9ED190001AE0A5 /* Info.plist */,
 				DE1C3E311F9ED190001AE0A5 /* easyPay.xcdatamodeld */,
+				8AE5910E1F9EF994009EF337 /* GoogleService-Info.plist */,
 			);
 			path = easyPay;
 			sourceTree = "<group>";
@@ -74,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE1C3E3C1F9ED190001AE0A5 /* Build configuration list for PBXNativeTarget "easyPay" */;
 			buildPhases = (
+				4AC6EC69E5835F59DE1C7D2B /* [CP] Check Pods Manifest.lock */,
 				DE1C3E231F9ED190001AE0A5 /* Sources */,
 				DE1C3E241F9ED190001AE0A5 /* Frameworks */,
 				DE1C3E251F9ED190001AE0A5 /* Resources */,
+				A142CD585561C16EA4E706D8 /* [CP] Embed Pods Frameworks */,
+				2409E0723AC72CC2F0C42FD3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,12 +157,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE1C3E381F9ED190001AE0A5 /* LaunchScreen.storyboard in Resources */,
+				8AE5910F1F9EF995009EF337 /* GoogleService-Info.plist in Resources */,
 				DE1C3E351F9ED190001AE0A5 /* Assets.xcassets in Resources */,
 				DE1C3E301F9ED190001AE0A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2409E0723AC72CC2F0C42FD3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-easyPay/Pods-easyPay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AC6EC69E5835F59DE1C7D2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A142CD585561C16EA4E706D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-easyPay/Pods-easyPay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DE1C3E231F9ED190001AE0A5 /* Sources */ = {
@@ -276,6 +355,7 @@
 		};
 		DE1C3E3D1F9ED190001AE0A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF422BD557A2C9D825755C56 /* Pods-easyPay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +370,7 @@
 		};
 		DE1C3E3E1F9ED190001AE0A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E220618DA2D8754651C3196 /* Pods-easyPay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
