@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>525001698749-hh90spf3j463ncqcus1aci6qg414ek7i.apps.googleusercontent.com</string>
+	<string>161854663349-gd9mqk9f2t6io51mohvkmdera46q00t4.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.525001698749-hh90spf3j463ncqcus1aci6qg414ek7i</string>
+	<string>com.googleusercontent.apps.161854663349-gd9mqk9f2t6io51mohvkmdera46q00t4</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCpndWwX9sLL5uvIt-rcvHwfizeWrAoa6E</string>
+	<string>AIzaSyBJU7SdZ848ztbKSsrjA-1zUvEiCH5aH-w</string>
 	<key>GCM_SENDER_ID</key>
-	<string>525001698749</string>
+	<string>161854663349</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.elasticbeanstalk.sample-env.pnzmp48knt.us-west-2.easyPay</string>
 	<key>PROJECT_ID</key>
-	<string>easypay-f6242</string>
+	<string>easypay-31164</string>
 	<key>STORAGE_BUCKET</key>
-	<string>easypay-f6242.appspot.com</string>
+	<string>easypay-31164.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:525001698749:ios:298a11636a0e0270</string>
+	<string>1:161854663349:ios:298a11636a0e0270</string>
 	<key>DATABASE_URL</key>
-	<string>https://easypay-f6242.firebaseio.com</string>
+	<string>https://easypay-31164.firebaseio.com</string>
 </dict>
 </plist>
