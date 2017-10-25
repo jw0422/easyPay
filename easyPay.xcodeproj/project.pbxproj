@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A191DDA1FA00457004333B9 /* MakePaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A191DD91FA00457004333B9 /* MakePaymentViewController.swift */; };
 		8AEE188A1F9FD79F0082678A /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEE18891F9FD79F0082678A /* SignupViewController.swift */; };
 		8AEE188C1F9FDC420082678A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AEE188B1F9FDC420082678A /* GoogleService-Info.plist */; };
 		8AEE188E1F9FDDF40082678A /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEE188D1F9FDDF40082678A /* SigninViewController.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		5E220618DA2D8754651C3196 /* Pods-easyPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easyPay.release.xcconfig"; path = "Pods/Target Support Files/Pods-easyPay/Pods-easyPay.release.xcconfig"; sourceTree = "<group>"; };
 		742D9041E43816ECDF1607FB /* Pods_easyPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_easyPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A191DD91FA00457004333B9 /* MakePaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakePaymentViewController.swift; sourceTree = "<group>"; };
 		8AEE18891F9FD79F0082678A /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		8AEE188B1F9FDC420082678A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8AEE188D1F9FDDF40082678A /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 			children = (
 				8AEE188D1F9FDDF40082678A /* SigninViewController.swift */,
 				8AEE18891F9FD79F0082678A /* SignupViewController.swift */,
+				8A191DD91FA00457004333B9 /* MakePaymentViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				DE1C3E2B1F9ED190001AE0A5 /* AppDelegate.swift in Sources */,
 				8AEE188A1F9FD79F0082678A /* SignupViewController.swift in Sources */,
 				DE1C3E331F9ED190001AE0A5 /* easyPay.xcdatamodeld in Sources */,
+				8A191DDA1FA00457004333B9 /* MakePaymentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
