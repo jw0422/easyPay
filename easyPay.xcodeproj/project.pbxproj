@@ -10,12 +10,18 @@
 		8AEE188A1F9FD79F0082678A /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEE18891F9FD79F0082678A /* SignupViewController.swift */; };
 		8AEE188C1F9FDC420082678A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AEE188B1F9FDC420082678A /* GoogleService-Info.plist */; };
 		8AEE188E1F9FDDF40082678A /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEE188D1F9FDDF40082678A /* SigninViewController.swift */; };
+		DE0B7FCB1F9FF71900285C89 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B7FCA1F9FF71900285C89 /* MeViewController.swift */; };
+		DE0B7FCD1F9FF7C400285C89 /* MeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B7FCC1F9FF7C400285C89 /* MeTableViewCell.swift */; };
+		DE0B7FCF1FA00C1E00285C89 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B7FCE1FA00C1E00285C89 /* FriendsViewController.swift */; };
+		DE0B7FD11FA00E0E00285C89 /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B7FD01FA00E0E00285C89 /* FriendsTableViewCell.swift */; };
+		DE0B7FD31FA013A800285C89 /* FriendsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B7FD21FA013A800285C89 /* FriendsListTableViewCell.swift */; };
 		DE1C3E2B1F9ED190001AE0A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C3E2A1F9ED190001AE0A5 /* AppDelegate.swift */; };
 		DE1C3E2D1F9ED190001AE0A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C3E2C1F9ED190001AE0A5 /* ViewController.swift */; };
 		DE1C3E301F9ED190001AE0A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1C3E2E1F9ED190001AE0A5 /* Main.storyboard */; };
 		DE1C3E331F9ED190001AE0A5 /* easyPay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE1C3E311F9ED190001AE0A5 /* easyPay.xcdatamodeld */; };
 		DE1C3E351F9ED190001AE0A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1C3E341F9ED190001AE0A5 /* Assets.xcassets */; };
 		DE1C3E381F9ED190001AE0A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1C3E361F9ED190001AE0A5 /* LaunchScreen.storyboard */; };
+		DE7AD4C81FA01B4000EF1389 /* FriendsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7AD4C71FA01B4000EF1389 /* FriendsListViewController.swift */; };
 		DF812CB24D1EFDF2A48BD41F /* Pods_easyPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742D9041E43816ECDF1607FB /* Pods_easyPay.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +32,11 @@
 		8AEE188B1F9FDC420082678A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8AEE188D1F9FDDF40082678A /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
 		CF422BD557A2C9D825755C56 /* Pods-easyPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easyPay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-easyPay/Pods-easyPay.debug.xcconfig"; sourceTree = "<group>"; };
+		DE0B7FCA1F9FF71900285C89 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		DE0B7FCC1F9FF7C400285C89 /* MeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeTableViewCell.swift; sourceTree = "<group>"; };
+		DE0B7FCE1FA00C1E00285C89 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		DE0B7FD01FA00E0E00285C89 /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
+		DE0B7FD21FA013A800285C89 /* FriendsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListTableViewCell.swift; sourceTree = "<group>"; };
 		DE1C3E271F9ED190001AE0A5 /* easyPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = easyPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1C3E2A1F9ED190001AE0A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE1C3E2C1F9ED190001AE0A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +45,7 @@
 		DE1C3E341F9ED190001AE0A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE1C3E371F9ED190001AE0A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE1C3E391F9ED190001AE0A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE7AD4C71FA01B4000EF1389 /* FriendsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +82,12 @@
 			children = (
 				8AEE188D1F9FDDF40082678A /* SigninViewController.swift */,
 				8AEE18891F9FD79F0082678A /* SignupViewController.swift */,
+				DE0B7FCA1F9FF71900285C89 /* MeViewController.swift */,
+				DE0B7FCC1F9FF7C400285C89 /* MeTableViewCell.swift */,
+				DE0B7FCE1FA00C1E00285C89 /* FriendsViewController.swift */,
+				DE0B7FD01FA00E0E00285C89 /* FriendsTableViewCell.swift */,
+				DE0B7FD21FA013A800285C89 /* FriendsListTableViewCell.swift */,
+				DE7AD4C71FA01B4000EF1389 /* FriendsListViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -242,8 +260,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE0B7FD11FA00E0E00285C89 /* FriendsTableViewCell.swift in Sources */,
+				DE0B7FD31FA013A800285C89 /* FriendsListTableViewCell.swift in Sources */,
+				DE0B7FCF1FA00C1E00285C89 /* FriendsViewController.swift in Sources */,
+				DE7AD4C81FA01B4000EF1389 /* FriendsListViewController.swift in Sources */,
+				DE0B7FCB1F9FF71900285C89 /* MeViewController.swift in Sources */,
 				DE1C3E2D1F9ED190001AE0A5 /* ViewController.swift in Sources */,
 				8AEE188E1F9FDDF40082678A /* SigninViewController.swift in Sources */,
+				DE0B7FCD1F9FF7C400285C89 /* MeTableViewCell.swift in Sources */,
 				DE1C3E2B1F9ED190001AE0A5 /* AppDelegate.swift in Sources */,
 				8AEE188A1F9FD79F0082678A /* SignupViewController.swift in Sources */,
 				DE1C3E331F9ED190001AE0A5 /* easyPay.xcdatamodeld in Sources */,
