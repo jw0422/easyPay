@@ -304,11 +304,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Make a Payment" id="fST-Be-fbQ">
-                                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="pGe-NX-3jh">
-                                            <connections>
-                                                <segue destination="LvO-b2-MCD" kind="presentation" id="aFu-Jo-OMN"/>
-                                            </connections>
-                                        </barButtonItem>
+                                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="pGe-NX-3jh"/>
                                         <barButtonItem key="rightBarButtonItem" title="Pay" id="vll-XP-dun"/>
                                     </navigationItem>
                                 </items>
@@ -375,11 +371,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem id="p3u-VC-dwN">
-                                        <barButtonItem key="rightBarButtonItem" title="Pay" id="k2A-ZF-BU2">
-                                            <connections>
-                                                <segue destination="x8Y-YZ-6Ov" kind="presentation" id="dqr-LE-CTn"/>
-                                            </connections>
-                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Pay" id="k2A-ZF-BU2"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -417,8 +409,4 @@
         <image name="1" width="200" height="200"/>
         <image name="backgroud" width="900" height="1600"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="dqr-LE-CTn"/>
-        <segue reference="aFu-Jo-OMN"/>
-    </inferredMetricsTieBreakers>
 </document>

@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import FirebaseDatabase
 
 class SignupViewController: UIViewController {
     
@@ -32,6 +33,20 @@ class SignupViewController: UIViewController {
                 if error == nil {
                     print("You have successfully signed up")
                     //Goes to the Setup page which lets the user take a photo for their profile picture and also chose a username
+                    
+                    var ref: DatabaseReference!
+                    
+                    ref = Database.database().reference().child("User")
+                    let key = ref.childByAutoId().key
+                    
+                    //creating artist with the given values
+                    let user = [
+                        "password": self.passwordTF.text! as String,
+                        "email": self.emailTF.text! as String
+                    ]
+                    
+                    //adding the artist inside the generated unique key
+                    ref.child(key).setValue(user)
                     
                     let vc = self.storyboard?.instantiateViewController(withIdentifier: "loginPage")
                     self.present(vc!, animated: true, completion: nil)
